@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "eas-build-pre-install": "./pre-install.sh",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -12,7 +13,9 @@
     "expo": "~46.0.2",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
-    "react-native": "0.69.3"
+    "react-native": "0.69.3",
+    "@shopify/react-native-skia": "0.1.137",
+    "expo-dev-client": "~1.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
